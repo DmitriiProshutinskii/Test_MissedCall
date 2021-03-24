@@ -14,6 +14,18 @@
 		AFE5D53D260A953500051E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE5D53C260A953500051E65 /* Assets.xcassets */; };
 		AFE5D540260A953500051E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE5D53F260A953500051E65 /* Preview Assets.xcassets */; };
 		AFE5D543260A953500051E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE5D541260A953500051E65 /* LaunchScreen.storyboard */; };
+		AFE5D550260A95AD00051E65 /* CallsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D54F260A95AD00051E65 /* CallsStore.swift */; };
+		AFE5D554260A95E300051E65 /* CallsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D553260A95E300051E65 /* CallsServices.swift */; };
+		AFE5D557260A963B00051E65 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D556260A963B00051E65 /* Call.swift */; };
+		AFE5D55A260A99CF00051E65 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D559260A99CF00051E65 /* Utils.swift */; };
+		AFE5D561260A9BE100051E65 /* CallsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D560260A9BE100051E65 /* CallsViewModel.swift */; };
+		AFE5D566260A9C6200051E65 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D565260A9C6200051E65 /* HomeView.swift */; };
+		AFE5D56A260A9D5600051E65 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D569260A9D5600051E65 /* LoadingView.swift */; };
+		AFE5D56E260A9D8F00051E65 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D56D260A9D8F00051E65 /* ActivityIndicatorView.swift */; };
+		AFE5D571260A9F1400051E65 /* CallListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D570260A9F1400051E65 /* CallListView.swift */; };
+		AFE5D576260AA2DF00051E65 /* CallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D575260AA2DF00051E65 /* CallCard.swift */; };
+		AFE5D579260AA30700051E65 /* SingleCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D578260AA30700051E65 /* SingleCallView.swift */; };
+		AFE5D57D260B2D4500051E65 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AFE5D57C260B2D4500051E65 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,18 @@
 		AFE5D53F260A953500051E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AFE5D542260A953500051E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFE5D544260A953500051E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE5D54F260A95AD00051E65 /* CallsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsStore.swift; sourceTree = "<group>"; };
+		AFE5D553260A95E300051E65 /* CallsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsServices.swift; sourceTree = "<group>"; };
+		AFE5D556260A963B00051E65 /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		AFE5D559260A99CF00051E65 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AFE5D560260A9BE100051E65 /* CallsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewModel.swift; sourceTree = "<group>"; };
+		AFE5D565260A9C6200051E65 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AFE5D569260A9D5600051E65 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AFE5D56D260A9D8F00051E65 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		AFE5D570260A9F1400051E65 /* CallListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListView.swift; sourceTree = "<group>"; };
+		AFE5D575260AA2DF00051E65 /* CallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCard.swift; sourceTree = "<group>"; };
+		AFE5D578260AA30700051E65 /* SingleCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCallView.swift; sourceTree = "<group>"; };
+		AFE5D57C260B2D4500051E65 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,11 @@
 		AFE5D532260A953400051E65 /* MissedCall_Test */ = {
 			isa = PBXGroup;
 			children = (
+				AFE5D57C260B2D4500051E65 /* data.json */,
+				AFE5D54B260A957800051E65 /* Services */,
+				AFE5D54C260A957E00051E65 /* Models */,
+				AFE5D54E260A958B00051E65 /* ViewModels */,
+				AFE5D54D260A958400051E65 /* Views */,
 				AFE5D533260A953400051E65 /* AppDelegate.swift */,
 				AFE5D535260A953400051E65 /* SceneDelegate.swift */,
 				AFE5D537260A953400051E65 /* ContentView.swift */,
@@ -76,6 +105,53 @@
 				AFE5D53F260A953500051E65 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFE5D54B260A957800051E65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5D54F260A95AD00051E65 /* CallsStore.swift */,
+				AFE5D553260A95E300051E65 /* CallsServices.swift */,
+				AFE5D559260A99CF00051E65 /* Utils.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AFE5D54C260A957E00051E65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5D556260A963B00051E65 /* Call.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AFE5D54D260A958400051E65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5D568260A9D3000051E65 /* Loading */,
+				AFE5D565260A9C6200051E65 /* HomeView.swift */,
+				AFE5D570260A9F1400051E65 /* CallListView.swift */,
+				AFE5D575260AA2DF00051E65 /* CallCard.swift */,
+				AFE5D578260AA30700051E65 /* SingleCallView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFE5D54E260A958B00051E65 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5D560260A9BE100051E65 /* CallsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AFE5D568260A9D3000051E65 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5D569260A9D5600051E65 /* LoadingView.swift */,
+				AFE5D56D260A9D8F00051E65 /* ActivityIndicatorView.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +214,7 @@
 				AFE5D543260A953500051E65 /* LaunchScreen.storyboard in Resources */,
 				AFE5D540260A953500051E65 /* Preview Assets.xcassets in Resources */,
 				AFE5D53D260A953500051E65 /* Assets.xcassets in Resources */,
+				AFE5D57D260B2D4500051E65 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +227,19 @@
 			files = (
 				AFE5D53B260A953400051E65 /* MissedCall_Test.xcdatamodeld in Sources */,
 				AFE5D534260A953400051E65 /* AppDelegate.swift in Sources */,
+				AFE5D579260AA30700051E65 /* SingleCallView.swift in Sources */,
+				AFE5D561260A9BE100051E65 /* CallsViewModel.swift in Sources */,
 				AFE5D536260A953400051E65 /* SceneDelegate.swift in Sources */,
 				AFE5D538260A953400051E65 /* ContentView.swift in Sources */,
+				AFE5D56A260A9D5600051E65 /* LoadingView.swift in Sources */,
+				AFE5D554260A95E300051E65 /* CallsServices.swift in Sources */,
+				AFE5D557260A963B00051E65 /* Call.swift in Sources */,
+				AFE5D571260A9F1400051E65 /* CallListView.swift in Sources */,
+				AFE5D576260AA2DF00051E65 /* CallCard.swift in Sources */,
+				AFE5D550260A95AD00051E65 /* CallsStore.swift in Sources */,
+				AFE5D566260A9C6200051E65 /* HomeView.swift in Sources */,
+				AFE5D55A260A99CF00051E65 /* Utils.swift in Sources */,
+				AFE5D56E260A9D8F00051E65 /* ActivityIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
